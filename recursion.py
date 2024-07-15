@@ -1,7 +1,5 @@
 def get_multiplied_digits(number):
-  """
-  Функция подсчитывает произведение цифр числа.
-  """
+
   str_number = str(number)
   first = int(str_number[0])
   if len(str_number) > 1:
